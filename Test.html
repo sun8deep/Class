@@ -2,13 +2,32 @@
     <script src="firrstjs.js"></script>
     <script>
         function Add(){
+            var name ='hari';
             console.log("Hello Class");
-            var func1 = function(){
-                console.log("Hello class 2");
+            this.func1 = function(){
+                name = "Giri";
+                console.log(name);
             }
-            func1();
+
+            console.log(name);
         }
-        Add();
+
+        function Add2(){
+            var number =2;
+            console.log("Hello Class");
+            
+            console.log(name);
+            //console.log('name');
+           
+            console.log(number);
+        }
+       
+
+        Add2();
+
+        // var obj = new Add();
+        // obj.func1();
+        
 
         
 

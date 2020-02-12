@@ -1,0 +1,34 @@
+ Class A
+{
+
+cons(){
+_objB= new Class b();
+}
+public void Method1(){
+ 
+_objB= .method2(Add);
+
+}
+
+private int Add(int a, int b)
+{
+
+return a+b;
+}
+
+}
+
+Class B
+{
+
+Public void Method2(func<int, int, int> add){
+var num1 = console.readLine();
+ var num1 = console.readLine();
+var sum = add(num1, num2):
+console.writeLine(sum)
+}
+
+}
+
+
+
